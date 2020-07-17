@@ -107,3 +107,23 @@ sectionTwo.textContent = 'Warriors';
 sectionThree.textContent = 'Celtics';
 sectionFour.textContent = 'Nets';
 sectionFive.textContent = 'Blazers';
+
+const paraOne = document.querySelector('.paragraph-one');
+console.log(paraOne);
+paraOne.textContent = 'Lebron Jamess';
+
+const paraTwo = document.querySelector('.paragraph-two');
+console.log(paraTwo);
+paraTwo.textContent = 'Steph Curry';
+
+const paraThree = document.querySelector('.paragraph-three');
+console.log(paraThree);
+paraThree.textContent = 'Kemba Walker';
+
+const paraFour = document.querySelector('.paragraph-four');
+console.log(paraFour);
+paraFour.textContent = 'Kyrie Irving';
+
+const paraFive = document.querySelector('.paragraph-five');
+console.log(paraFive);
+paraFive.textContent = 'Damien Lillard';
