@@ -149,14 +149,49 @@ body.appendChild(containerSix);
 containerSix.appendChild(sectionSix);
 containerSix.appendChild(paraSix);
 
-// create another container
-    // add class
-// create another section
-    // add an id
-    // add textContent
-// create another paragraph
-    // add a class
-    // add textContent
+// // create another container
+// const containerSeven = document.createElement('div');
+// console.log(containerSeven);
+
+
+// // add class
+// containerSeven.classList.add('container-seven');
+// console.log(containerSeven);
+
+
+// // create another section
+// const sectionSeven = document.createElement('h2');
+// console.log(sectionSeven);
+
+
+// // add an id
+// sectionSeven.setAttribute('id', 'section-seven');
+// // console.log(sectionSeven);
+
+
+// // add textContent
+// sectionSeven.textContent = 'Bucks';
+// console.log(sectionSeven);
+
+
+
+// // create another paragraph
+// const paraSeven = document.createElement('p');
+// console.log(paraSeven);
+
+
+// // add a class
+// paraSeven.classList.add('paragraph-seven');
+// console.log(paraSeven);
+
+
+// // add textContent
+// paraSeven.textContent = 'Giannis Antetokounmpo';
+// console.log(paraSeven);
+
+// body.appendChild(containerSeven);
+// containerSeven.appendChild(sectionSeven);
+// containerSeven.appendChild(paraSeven);
 
 // append the container to the body
 // append section to the container
@@ -179,4 +214,3 @@ console.log(paraSeven);
 body.appendChild(containerSeven);
 containerSeven.appendChild(SectionSeven);
 containerSeven.appendChild(paraSeven);
-
