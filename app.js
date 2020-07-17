@@ -36,3 +36,57 @@ console.log(lakers);
 
 // TEST YOUR CODE
 
+function displayCoolBikes(array) {
+    let result = [];
+
+    for(let i = 0; i < array.length; i++) {
+        let bike = array[i];
+
+        if (bike.length > 7;) {
+            result.push(bike);
+        }
+    }
+
+    return result;
+}
+
+// console.log(displayCoolBikes(motorcycles));
+
+function removeFromArray(callback, array) {
+    let result = callback(array)[0];
+    console.log(result);
+
+}
+
+removeFromArray(displayCoolBikes, motorcycles);
+
+function printSentence(string) {
+    console.log(string);
+}
+
+printSentence(sentence);
+printSentence(name);
+
+function printPlayers(object) {
+    console.log(object.players);
+}
+
+printPlayers(lakers);
+
+function printEachPlayer(object) {
+    object.players.forEach(eachPlayer => {
+        console.log(eachPlayer);
+    });
+}
+
+printEachPlayer(lakers);
+
+function doesThisReallyWork(boolean) {
+    if (boolean) {
+        console.log('this works');
+    } else {
+        console.log('This does not work');
+    }
+}
+
+doesThisReallyWork(doesThisWork);
