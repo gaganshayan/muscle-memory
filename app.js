@@ -42,7 +42,7 @@ function displayCoolBikes(array) {
     for(let i = 0; i < array.length; i++) {
         let bike = array[i];
 
-        if (bike.length > 7;) {
+        if (bike.length > 7) {
             result.push(bike);
         }
     }
@@ -127,3 +127,56 @@ paraFour.textContent = 'Kyrie Irving';
 const paraFive = document.querySelector('.paragraph-five');
 console.log(paraFive);
 paraFive.textContent = 'Damien Lillard';
+
+const containerSix = document.createElement('div');
+containerSix.classList.add('container-six');
+console.log(containerSix);
+
+const sectionSix = document.createElement('h2');
+sectionSix.setAttribute('id', 'section-six');
+sectionSix.textContent = 'Rockets';
+console.log(sectionSix);
+
+const paraSix = document.createElement('p');
+paraSix.classList.add('paragraph-six');
+paraSix.textContent = 'James Harden';
+console.log(paraSix);
+
+const body = document.querySelector('body');
+console.log(body);
+
+body.appendChild(containerSix);
+containerSix.appendChild(sectionSix);
+containerSix.appendChild(paraSix);
+
+// create another container
+    // add class
+// create another section
+    // add an id
+    // add textContent
+// create another paragraph
+    // add a class
+    // add textContent
+
+// append the container to the body
+// append section to the container
+// append the paragraph to the container
+
+const ContainerSeven = document.createElement('div');
+ContainerSeven.classList.add('container-seven');
+console.log(ContainerSeven);
+
+const SectionSeven = document.createElement('h2');
+SectionSeven.setAttribute('id', 'section-seven');
+SectionSeven.textContent = 'Dallas Mavericks';
+console.log(SectionSeven);
+
+const paraSeven = document.createElement('p');
+paraSeven.classList.add('paragraph-seven');
+paraSeven.textContent = 'Dirk Nowitzki';
+console.log(paraSeven);
+
+body.appendChild(containerSeven);
+containerSeven.appendChild(SectionSeven);
+containerSeven.appendChild(paraSeven);
+
