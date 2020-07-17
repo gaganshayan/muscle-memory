@@ -25,3 +25,14 @@ const lakers = {
 }
 
 console.log(lakers);
+
+// make 10 different functions
+// one of your functions need to pass in an array
+// one of your functions need to pass in a callback
+// one of your functions need to pass in a string
+// ... object
+// ... boolean
+// ... freestyle
+
+// TEST YOUR CODE
+
